@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+	import Header from "$lib/components/Header.svelte";
+	import HeroSection from "$lib/components/HeroSection.svelte";
+	import Footer from "$lib/components/Footer.svelte";
+</script>
+
+<div class="h-full w-full">
+	<Header />
+	<HeroSection />
+	<Footer />
+</div>
