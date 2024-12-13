@@ -1,8 +1,10 @@
 <script lang="ts">
 	import { Trees } from "lucide-svelte";
 
+	import GridPattern from "$lib/components/GridPattern.svelte";
 	import ItalicText from "$lib/components/ItalicText.svelte";
 	import { Button } from "$lib/components/ui/button/index";
+	import { cn } from "$lib/utils";
 </script>
 
 <section class="flex h-2/3 w-full flex-row items-center justify-between">
@@ -23,4 +25,19 @@
 			<Button href="/docs" variant="secondary" size="lg">Learn More</Button>
 		</div>
 	</div>
+	<GridPattern
+		squares={[
+			[4, 4],
+			[5, 1],
+			[8, 2],
+			[6, 6],
+			[10, 5],
+			[13, 3]
+		]}
+		class={cn(
+			"[mask-image:radial-gradient(600px_circle_at_center,white,transparent)]",
+			"inset-x-[20%] inset-y-[-60%] h-[200%] skew-y-12"
+		)}
+		fillColor="rgb(156 163 175 / 0.3)"
+	/>
 </section>
