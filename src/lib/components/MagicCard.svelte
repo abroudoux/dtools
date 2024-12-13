@@ -39,7 +39,7 @@
 	on:mousemove={handleMouseMove}
 	on:mouseleave={handleMouseLeave}
 	class={cn(
-		"group relative flex size-full justify-center overflow-hidden rounded-xl border bg-neutral-100 py-8 text-black dark:bg-neutral-900 dark:text-white",
+		"group relative flex size-full justify-center overflow-hidden rounded-xl border bg-neutral-100 text-black dark:bg-neutral-900 dark:text-white",
 		className
 	)}
 >

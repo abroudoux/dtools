@@ -7,7 +7,7 @@
 	import { cn } from "$lib/utils";
 </script>
 
-<section class="my-64 flex h-2/3 w-full flex-row items-center justify-between">
+<section class="my-64 flex h-2/3 w-full flex-row items-center justify-between py-24">
 	<div class="flex flex-col items-start justify-center gap-4">
 		<p class="flex flex-row items-center justify-start gap-2">
 			<Trees size="42" class="text-orange-500" />
@@ -38,7 +38,7 @@
 		]}
 		class={cn(
 			"[mask-image:radial-gradient(600px_circle_at_center,white,transparent)]",
-			"fixed inset-x-[20%] inset-y-[-60%] h-[200%] skew-y-12"
+			"fixed inset-x-[20%] inset-y-[-55%] h-[200%] skew-y-12"
 		)}
 		fillColor="rgb(156 163 175 / 0.3)"
 	/>

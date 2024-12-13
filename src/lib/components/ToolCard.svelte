@@ -1,9 +1,9 @@
 <script lang="ts">
 	import MagicCard from "$lib/components/MagicCard.svelte";
 
-	import type { ToolCardType } from "$lib/utils/interfaces";
+	import type { Tool } from "$lib/utils/types";
 
-	export let tool: ToolCardType;
+	export let tool: Tool;
 </script>
 
 <div class="h-64 rounded-lg">
