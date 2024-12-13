@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { Trees } from "lucide-svelte";
 
+	import ItalicText from "$lib/components/ItalicText.svelte";
 	import { Button } from "$lib/components/ui/button/index";
 </script>
 
@@ -10,7 +11,9 @@
 			<Trees size="42" class="text-orange-500" />
 			<span class="text-4xl">dtools</span>
 		</p>
-		<h1 class="max-w-4xl text-8xl">Tools built to help you develop better.</h1>
+		<h1 class="max-w-4xl text-8xl">
+			Tools built to <ItalicText str={"help you"} /> develop better.
+		</h1>
 		<p class="max-w-5xl text-2xl text-muted-foreground">
 			We provide a set of tools to help you develop better, faster, and more efficiently. Our tools
 			are designed to help you focus on what you do best, and leave the rest to us.
