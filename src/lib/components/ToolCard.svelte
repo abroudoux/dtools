@@ -4,14 +4,12 @@
 	import type { ToolCardType } from "$lib/utils/interfaces";
 
 	export let tool: ToolCardType;
-	export let borderColor: string;
-	export let gradientColor: string;
 </script>
 
 <div class="rounded-lg">
 	<MagicCard
-		class={`group flex cursor-pointer flex-col items-start justify-center whitespace-nowrap p-12 text-4xl shadow-2xl transition-all duration-300 hover:border-[${borderColor}]`}
-		{gradientColor}
+		class={`group flex cursor-pointer flex-col items-start justify-center whitespace-nowrap p-12 text-4xl shadow-2xl transition-all duration-300 hover:border-[#2effbd9e]`}
+		gradientColor={"#043634"}
 		gradientSize={300}
 	>
 		<svelte:component this={tool.icon} class="h-8 w-8 text-orange-500" />

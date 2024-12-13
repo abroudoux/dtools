@@ -51,8 +51,15 @@
 @layer base {
 	* {
 		@apply border-border;
+		scroll-behavior: smooth;
+		scrollbar-width: none;
+		ms-overflow-style: none;
 	}
 	body {
 		@apply bg-background text-foreground;
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
 	}
 }

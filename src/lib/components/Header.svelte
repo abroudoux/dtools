@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { Trees } from "lucide-svelte";
+
+	import TextAnimationDecoration from "$lib/components/TextAnimationDecoration.svelte";
 </script>
 
 <header class="flex w-full flex-row items-center justify-between">
@@ -7,4 +9,7 @@
 		<Trees size="32" class="text-orange-500" />
 		<span class="text-3xl">dtools</span>
 	</a>
+	<TextAnimationDecoration href={"https://github.com/abroudoux/dtools"}>
+		Source Code
+	</TextAnimationDecoration>
 </header>

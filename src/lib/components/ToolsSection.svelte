@@ -43,20 +43,22 @@
 	};
 </script>
 
-<section class="flex w-full flex-col items-center justify-center gap-4 py-16">
+<section class="flex w-full flex-col items-center justify-center gap-4 py-16" id="toolsSection">
 	<div class="flex w-full flex-col items-start justify-start gap-2 py-4">
-		<h2 class="text-4xl">Targeted tools for <ItalicText>developers</ItalicText></h2>
+		<h2 class="text-4xl">
+			Targeted tools for <ItalicText color="text-orange-500">developers</ItalicText>
+		</h2>
 		<p class="text-xl text-muted-foreground">
 			Tools that help you with your projects, so you can focus on the important things
 		</p>
 	</div>
 	<div class="grid w-full grid-cols-3 gap-4">
-		<ToolCard tool={branch} borderColor={"#2effbd9e"} gradientColor={"#043634"} />
-		<ToolCard tool={pm} borderColor={"#2effbd9e"} gradientColor={"#043634"} />
-		<ToolCard tool={commit} borderColor={"#2effbd9e"} gradientColor={"#043634"} />
+		<ToolCard tool={branch} />
+		<ToolCard tool={pm} />
+		<ToolCard tool={commit} />
 	</div>
 	<div class="grid w-full grid-cols-2 gap-4">
-		<ToolCard tool={repo} borderColor={"#2effbd9e"} gradientColor={"#043634"} />
-		<ToolCard tool={al} borderColor={"#2effbd9e"} gradientColor={"#043634"} />
+		<ToolCard tool={repo} />
+		<ToolCard tool={al} />
 	</div>
 </section>
