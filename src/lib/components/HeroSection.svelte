@@ -16,7 +16,7 @@
 		</h1>
 		<p class="max-w-5xl text-2xl text-muted-foreground">
 			We provide a set of tools to help you develop better, faster, and more efficiently. Our tools
-			are designed to help you focus on what you do best, and leave the rest to us.
+			are designed to help you focus on what you do best, and leave the rest to us
 		</p>
 		<div class="flex flex-row items-center justify-start gap-4 py-4">
 			<Button href="/docs" size="lg">Get Started</Button>

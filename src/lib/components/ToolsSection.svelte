@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { SvelteComponent } from "svelte";
-	import { User, Leaf, FolderOpenDot, Volleyball } from "lucide-svelte";
+	import { User, Leaf, FolderOpenDot, Volleyball, Globe, Drama } from "lucide-svelte";
 
 	import type { ToolCardType } from "$lib/utils/interfaces";
 	import ToolCard from "$lib/components/ToolCard.svelte";
@@ -29,6 +29,18 @@
 		description: "Quickly commits code",
 		icon: Volleyball as typeof SvelteComponent
 	};
+
+	let repo: ToolCardType = {
+		name: "repo",
+		description: "Browser Github repositories",
+		icon: Globe as typeof SvelteComponent
+	};
+
+	let al: ToolCardType = {
+		name: "al",
+		description: "Create local aliases, like package.json but everywhere",
+		icon: Drama as typeof SvelteComponent
+	};
 </script>
 
 <section class="flex w-full flex-col items-center justify-center gap-4 py-16">
@@ -39,12 +51,12 @@
 		</p>
 	</div>
 	<div class="grid w-full grid-cols-3 gap-4">
-		<ToolCard tool={branch} />
-		<ToolCard tool={pm} />
-		<ToolCard tool={commit} />
+		<ToolCard tool={branch} borderColor={"#2effbd9e"} gradientColor={"#043634"} />
+		<ToolCard tool={pm} borderColor={"#2effbd9e"} gradientColor={"#043634"} />
+		<ToolCard tool={commit} borderColor={"#2effbd9e"} gradientColor={"#043634"} />
 	</div>
 	<div class="grid w-full grid-cols-2 gap-4">
-		<ToolCard tool={test} />
-		<ToolCard tool={test} />
+		<ToolCard tool={repo} borderColor={"#2effbd9e"} gradientColor={"#043634"} />
+		<ToolCard tool={al} borderColor={"#2effbd9e"} gradientColor={"#043634"} />
 	</div>
 </section>
