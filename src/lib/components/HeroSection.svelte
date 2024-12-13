@@ -12,7 +12,7 @@
 			<span class="text-4xl">dtools</span>
 		</p>
 		<h1 class="max-w-4xl text-8xl">
-			Tools built to <ItalicText str={"help you"} /> develop better.
+			Tools built to <ItalicText>help you</ItalicText> develop better.
 		</h1>
 		<p class="max-w-5xl text-2xl text-muted-foreground">
 			We provide a set of tools to help you develop better, faster, and more efficiently. Our tools

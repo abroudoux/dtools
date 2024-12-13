@@ -33,7 +33,7 @@
 
 <section class="flex w-full flex-col items-center justify-center gap-4 py-16">
 	<div class="flex w-full flex-col items-start justify-start gap-2 py-4">
-		<h2 class="text-4xl">Targeted tools for <ItalicText str="developers" /></h2>
+		<h2 class="text-4xl">Targeted tools for <ItalicText>developers</ItalicText></h2>
 		<p class="text-xl text-muted-foreground">
 			Tools that help you with your projects, so you can focus on the important things
 		</p>
