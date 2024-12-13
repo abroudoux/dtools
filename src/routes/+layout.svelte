@@ -14,8 +14,6 @@
 </svelte:head>
 
 <main class="flex w-screen flex-col items-start justify-start overflow-x-hidden bg-foreground p-4">
-	<div class="h-screen w-full rounded-xl bg-background px-24 py-16 text-foreground">
-		{@render children()}
-	</div>
+	{@render children()}
 </main>
 <ModeWatcher defaultTheme={"dark"} />

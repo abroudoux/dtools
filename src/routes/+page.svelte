@@ -5,7 +5,9 @@
 	import Footer from "$lib/components/Footer.svelte";
 </script>
 
-<Header />
-<HeroSection />
-<ToolsSection />
-<Footer />
+<div class="h-auto min-h-screen w-full rounded-xl bg-background px-24 py-16 text-foreground">
+	<Header />
+	<HeroSection />
+	<ToolsSection />
+	<Footer />
+</div>

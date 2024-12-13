@@ -7,7 +7,7 @@
 	import { cn } from "$lib/utils";
 </script>
 
-<section class="flex h-2/3 w-full flex-row items-center justify-between">
+<section class="my-64 flex h-2/3 w-full flex-row items-center justify-between">
 	<div class="flex flex-col items-start justify-center gap-4">
 		<p class="flex flex-row items-center justify-start gap-2">
 			<Trees size="42" class="text-orange-500" />
