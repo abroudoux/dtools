@@ -1,7 +1,7 @@
 import type { SvelteComponent } from "svelte";
 
-export interface Tool {
+export type Tool = {
 	name: string;
 	description: string;
 	icon: typeof SvelteComponent;
-}
+};
