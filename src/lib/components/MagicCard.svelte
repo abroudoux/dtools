@@ -43,7 +43,7 @@
 		className
 	)}
 >
-	<div class="relative z-10 flex flex-col gap-2">
+	<div class="relative z-10 flex flex-col items-start justify-start gap-2">
 		<!-- Default  -->
 		<slot />
 	</div>

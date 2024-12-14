@@ -7,7 +7,6 @@
 	import { selectedTool } from "$lib/stores/toolStore";
 	import type { Tool } from "$lib/utils/types";
 
-	export let tool: Tool;
 	let currentTool: Tool | null = null;
 
 	selectedTool.subscribe((value) => {
@@ -22,8 +21,6 @@
 	<ToolsSection />
 	{#if currentTool}
 		<DemoSection tool={currentTool} />
-	{:else}
-		<p>Nothing to show here!</p>
 	{/if}
 	<Footer />
 	<!-- <div class="fixed bottom-0 left-0 z-50 h-4 w-screen bg-foreground"></div> -->
