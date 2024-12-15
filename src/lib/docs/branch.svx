@@ -3,20 +3,20 @@
 </script>
 
 <div class="text-xl leading-9">
-  <p>
-    <Code>branch</Code> allows you to manage your Git branches with various and commons actions. Once you're in interactive mode, either by using <Code>run</Code> / the <Code>-r</Code> flag or simply by running branch, you can manage your branches with common actions.
-  </p>
+<p>
+  <Code>branch</Code> allows you to manage your Git branches with various and commons actions. Once you're in interactive mode, either by using <Code>run</Code> / the <Code>-r</Code> flag or simply by running branch, you can manage your branches with common actions.
+</p>
 
-  <br>
-
-  ```bash
-  Branch: name
-  Choose an action:
-    Exit
-    Delete
-    Merge
-    Branch
-    Checkout
-  > Name
-  ```
+  <pre>
+    <code>
+Branch: name
+Choose an action:
+  Exit
+  Delete
+  Merge
+  Branch
+  Checkout
+> Name
+    </code>
+  </pre>
 </div>

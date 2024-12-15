@@ -1,1 +1,13 @@
-# commit
+<script lang="ts">
+    import Code from "$lib/components/Code.svelte";
+</script>
+
+<div class="text-xl leading-9">
+    <Code>commit</Code> allows you to commit your code by running a unique command.
+
+    <pre>
+        <code>
+commit
+        </code>
+    </pre>
+</div>

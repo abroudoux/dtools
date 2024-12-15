@@ -1,1 +1,52 @@
-# pm
+<script lang="ts">
+    import Code from "$lib/components/Code.svelte";
+</script>
+
+<div class="text-xl leading-9">
+    <Code>pm</Code> allows you to easily run and manage commands on your project, according to your file reference which acts like the root of your project.
+
+    <pre>
+        <code>
+# Will move you to the root of your project then run the provided command
+pm npm install express
+        </code>
+    </pre>
+
+    You can also return at the root of the project by simply use <Code>pm</Code> or the flag <Code>--root</Code> / <Code>-r</Code>.
+
+    <pre>
+        <code>
+# Will move you to the root of your project
+pm --root
+        </code>
+    </pre>
+
+    Your previous working directory is saved, so you can use <Code>pm -</Code> to go back to it.
+
+    <pre>
+        <code>
+# Will move you back to your previous working directory
+pm -
+        </code>
+    </pre>
+
+    Use the <Code>--file</Code> / <Code>-f</Code> flag to configure your file reference.
+
+    > By default, the value is <Code>package.json</Code>.
+
+    <pre>
+        <code>
+# If you're working on a Cargo-based project
+pm --file cargo.lock
+        </code>
+    </pre>
+
+    You can see your reference file by using the flag without argument.
+
+    <pre>
+        <code>
+# Will output your reference file
+pm --show
+        </code>
+    </pre>
+</div>

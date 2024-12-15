@@ -1,1 +1,38 @@
-# repo
+<script lang="ts">
+    import Code from "$lib/components/Code.svelte";
+</script>
+
+<div class="text-xl leading-9">
+    <Code>repo</Code> allows you to browser Github Repositories from commands.
+
+    <pre>
+        <code>
+# Opens a new browser window with your current GitHub repository
+repo
+        </code>
+    </pre>
+
+    Use the <Code>--branch</Code> / <Code>-b</Code> flag to open the current Gihtub repository with the specified branch.
+
+    <pre>
+        <code>
+repo --branch develop
+        </code>
+    </pre>
+
+    You can search for a repository by using the <Code>--link</Code> / <Code>-l</Code> flag.
+
+    <pre>
+        <code>
+repo https://github.com/abroudoux/repo
+        </code>
+    </pre>
+
+    If you don't have the URl, use the <Code>--search</Code> / <Code>-s</Code> flag to make a research.
+
+    <pre>
+        <code>
+repo --search repo
+        </code>
+    </pre>
+</div>

@@ -1,9 +1,9 @@
 <script lang="ts">
-	import Header from "$lib/components/Header.svelte";
-	import HeroSection from "$lib/components/HeroSection.svelte";
-	import ToolsSection from "$lib/components/ToolsSection.svelte";
-	import DemoSection from "$lib/components/DemoSection.svelte";
-	import Footer from "$lib/components/Footer.svelte";
+	import Header from "$lib/components/sections/Header.svelte";
+	import HeroSection from "$lib/components/sections/HeroSection.svelte";
+	import ToolsSection from "$lib/components/sections/ToolsSection.svelte";
+	import DemoSection from "$lib/components/sections/DemoSection.svelte";
+	import Footer from "$lib/components/sections/Footer.svelte";
 	import { selectedTool } from "$lib/stores/toolStore";
 	import type { Tool } from "$lib/utils/types";
 
