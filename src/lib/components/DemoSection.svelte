@@ -3,8 +3,10 @@
 
 	import ItalicText from "$lib/components/ItalicText.svelte";
 	import type { Tool } from "$lib/utils/types";
+	import { getLastRealeaseVersion } from "$lib/utils/repositories";
 
 	export let tool: Tool;
+	let version: string = "";
 
 	let BranchComponent: typeof import("svelte").SvelteComponent | null = null;
 
@@ -18,15 +20,23 @@
 			console.error(`Error during the loading of ${toolName}.svx:`, error);
 			BranchComponent = null;
 		}
+
+		try {
+			const response = await getLastRealeaseVersion(tool.name);
+			response instanceof Error ? console.error(response.message) : (version = response);
+		} catch (error) {
+			console.error(`Error during the fetching of the last release version of ${toolName}:`, error);
+		}
 	}
 </script>
 
 <section class="my-64 flex w-full flex-col items-start justify-between gap-8">
-	<div class="w-full flex-col items-start justify-start gap-4">
-		<h3 class="text-4xl">
+	<div class="flex w-full flex-col items-start justify-start gap-2">
+		<h3 class="flex-inline flex items-baseline gap-4 text-4xl">
 			<ItalicText color="orange-500">
 				{tool.name}
 			</ItalicText>
+			<span class="text-2xl text-muted-foreground">--{version}</span>
 		</h3>
 		<p class="text-xl text-foreground">
 			{tool.description}
