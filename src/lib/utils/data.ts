@@ -1,5 +1,5 @@
 import type { SvelteComponent } from "svelte";
-import { Leaf, FolderOpenDot, Volleyball, Globe, Drama } from "lucide-svelte";
+import { Leaf, Clover, TreePalm, Flower, Drama } from "lucide-svelte";
 
 import type { Tool } from "$lib/utils/types";
 
@@ -13,19 +13,19 @@ export const tools: Tool[] = [
 	{
 		name: "pm",
 		description: "Manage Commands Inside Projects",
-		icon: FolderOpenDot as typeof SvelteComponent,
+		icon: Clover as typeof SvelteComponent,
 		repositoryUrl: "https://github.com/abroudoux/pm"
 	},
 	{
 		name: "commit",
 		description: "Quickly commits code",
-		icon: Volleyball as typeof SvelteComponent,
+		icon: TreePalm as typeof SvelteComponent,
 		repositoryUrl: "https://github.com/abroudoux/commit"
 	},
 	{
 		name: "repo",
 		description: "Browser Github repositories",
-		icon: Globe as typeof SvelteComponent,
+		icon: Flower as typeof SvelteComponent,
 		repositoryUrl: "https://github.com/abroudoux/repo"
 	},
 	{
