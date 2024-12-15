@@ -14,10 +14,10 @@
 
 	async function loadBranchComponent(toolName: string) {
 		try {
-			const module = await import(`$lib/docs/${toolName}.svx`);
+			const module = await import(`$lib/docs/${tool.name}.svx`);
 			BranchComponent = module.default;
 		} catch (error) {
-			console.error(`Error during the loading of ${toolName}.svx:`, error);
+			console.error(`Error during the loading of ${tool.name} doc file:`, error);
 			BranchComponent = null;
 		}
 
@@ -30,13 +30,13 @@
 	}
 </script>
 
-<section class="my-64 flex w-full flex-col items-start justify-between gap-8">
+<section class="my-64 flex w-full flex-col items-start justify-between gap-12">
 	<div class="flex w-full flex-col items-start justify-start gap-2">
 		<h3 class="flex-inline flex items-baseline gap-4 text-4xl">
 			<ItalicText color="orange-500">
 				{tool.name}
 			</ItalicText>
-			<span class="text-2xl text-muted-foreground">--{version}</span>
+			<span class="text-xl text-muted-foreground">--{version}</span>
 		</h3>
 		<p class="text-xl text-foreground">
 			{tool.description}
