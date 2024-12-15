@@ -5,15 +5,6 @@
 <div class="text-xl leading-9">
     <Code>al</Code> needs a <Code>al.json</Code> file where you define your custom aliases, generally at the root of your project. Since the config file exists, you can use <Code>al</Code> followed by your local alias\n.
 
-    <pre>
-        <code>
-# al.json
-{
-    "test": "echo \"This is a test\""
-}
-        </code>
-    </pre>
-
     <br>
 
     <pre>
