@@ -17,10 +17,7 @@ const config = {
 			assets: "build",
 			fallback: null,
 			strict: false
-		}),
-		paths: {
-			base: "/dtools"
-		}
+		})
 	},
 	extensions: [".svelte", ".svx", ".md"]
 };
