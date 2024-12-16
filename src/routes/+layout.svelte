@@ -1,6 +1,4 @@
 <script lang="ts">
-	export const prerender = true;
-
 	import { ModeWatcher } from "mode-watcher";
 
 	import "../app.css";

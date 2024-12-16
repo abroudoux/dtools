@@ -18,7 +18,7 @@ const config = {
 			fallback: null
 		}),
 		paths: {
-			base: "/dtools/build"
+			base: "/dtools"
 		}
 	},
 	extensions: [".svelte", ".svx", ".md"]
