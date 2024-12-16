@@ -13,7 +13,7 @@ const config = {
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
 		adapter: adapter(),
 		paths: {
-			base: "/sveltekit-github-pages"
+			base: "/build"
 		}
 	},
 	extensions: [".svelte", ".svx", ".md"]
