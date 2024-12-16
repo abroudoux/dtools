@@ -10,7 +10,7 @@
 	}
 </script>
 
-<section class="s flex w-full flex-col items-center justify-center gap-4" id="toolsSection">
+<section class="my-[15%] flex w-full flex-col items-center justify-center gap-4" id="toolsSection">
 	<div class="flex w-full flex-col items-start justify-start gap-2 py-4">
 		<h2 class="text-4xl">
 			Targeted tools for <ItalicText color="text-orange-500">developers</ItalicText>

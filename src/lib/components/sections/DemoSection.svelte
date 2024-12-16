@@ -32,7 +32,7 @@
 </script>
 
 <section
-	class="relative my-64 flex w-full flex-col items-start justify-between gap-12 rounded-lg border p-8"
+	class="relative my-[15%] flex w-full flex-col items-start justify-between gap-12 rounded-lg border p-8"
 >
 	<BorderBeam />
 	<div class="flex w-full flex-col items-start justify-start gap-2">
