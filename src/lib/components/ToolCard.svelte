@@ -13,7 +13,7 @@
 	}
 </script>
 
-<button class="h-64 rounded-lg" on:click={handleClick}>
+<a class="h-64 rounded-lg" on:click={handleClick} href="#demoSection">
 	<MagicCard
 		class={`group flex cursor-pointer flex-col items-start justify-center gap-4 whitespace-nowrap p-12 text-4xl shadow-2xl transition-all duration-300 hover:border-[#2effbd9e]`}
 		gradientColor={"#043634"}
@@ -23,4 +23,4 @@
 		<h3 class="text-3xl">{tool.name}</h3>
 		<p class="text-xl text-muted-foreground">{tool.description}</p>
 	</MagicCard>
-</button>
+</a>
