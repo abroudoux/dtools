@@ -15,8 +15,8 @@ const config = {
 		adapter: adapter({
 			pages: "build",
 			assets: "build",
-			fallback: null,
-			strict: false
+			fallback: undefined,
+			strict: true
 		})
 	},
 	extensions: [".svelte", ".svx", ".md"]
