@@ -20,15 +20,6 @@ const config = {
 		}),
 		paths: {
 			base: "/dtools"
-		},
-		prerender: {
-			handleHttpError: ({ status, path, referrer, referenceType }) => {
-				if (status === 404 && path === "/favicon.png") {
-					return;
-				}
-
-				throw new Error(`${status} ${path} is missing.`);
-			}
 		}
 	},
 	extensions: [".svelte", ".svx", ".md"]
