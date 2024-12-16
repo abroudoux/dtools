@@ -18,9 +18,6 @@ const config = {
 		}),
 		paths: {
 			base: "/dtools"
-		},
-		prerender: {
-			handleHttpError: "ignore"
 		}
 	},
 	extensions: [".svelte", ".svx", ".md"]
