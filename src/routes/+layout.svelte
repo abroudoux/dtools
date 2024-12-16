@@ -6,8 +6,6 @@
 	let { children } = $props();
 </script>
 
-export const prerender = true;
-
 <svelte:head>
 	<title>dtools</title>
 	<meta name="description" content="dtools" />
