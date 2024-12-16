@@ -15,9 +15,12 @@ const config = {
 		adapter: adapter({
 			pages: "build",
 			assets: "build",
-			fallback: undefined,
+			fallback: null,
 			strict: true
-		})
+		}),
+		paths: {
+			base: "/dtools"
+		}
 	},
 	extensions: [".svelte", ".svx", ".md"]
 };
