@@ -63,3 +63,7 @@
 		}
 	}
 }
+
+pre {
+	@apply my-4 w-full rounded-lg bg-muted-foreground/5 p-1.5 px-8 font-mono text-foreground;
+}

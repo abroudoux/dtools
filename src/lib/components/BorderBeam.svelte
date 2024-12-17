@@ -4,7 +4,7 @@
 	export let size = 200;
 	export let duration = 15;
 	export let anchor = 90;
-	export let borderWidth = 1.5;
+	export let borderWidth = 2;
 	// export let colorFrom = "#ffaa40";
 	// export let colorTo = "#9c40ff";
 	export let colorFrom = "#F97316";

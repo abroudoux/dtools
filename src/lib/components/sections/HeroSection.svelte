@@ -40,6 +40,5 @@
 			"[mask-image:radial-gradient(600px_circle_at_center,white,transparent)]",
 			"fixed inset-x-[20%] inset-y-[-55%] h-[200%] skew-y-12"
 		)}
-		fillColor="rgb(156 163 175 / 0.3)"
 	/>
 </section>

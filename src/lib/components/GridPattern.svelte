@@ -7,12 +7,12 @@
 	export let y = -1;
 	export let strokeDashArray: string = "";
 	export let squares: Array<[x: number, y: number]> = [[0, 0]];
-	let className: any = "";
 	export { className as class };
-	let id = crypto.randomUUID().toString().slice(0, 8);
 	export let fillColor = "rgb(156 163 175 / 0.3)";
-	// : rgb(156 163 175 / 0.3)
 	export let strokeWidth = 1;
+
+	let id = crypto.randomUUID().toString().slice(0, 8);
+	let className: any = "";
 </script>
 
 <svg
