@@ -11,8 +11,10 @@
 		<Trees size="32" class="text-orange-500" />
 		<span class="text-3xl">dtools</span>
 	</a>
-	<TextAnimationDecoration href={"https://github.com/abroudoux/dtools"}>
-		Source Code
-	</TextAnimationDecoration>
-	<ThemeModeToggle />
+	<div class="flex flex-row items-center justify-end gap-4">
+		<TextAnimationDecoration href={"https://github.com/abroudoux/dtools"}>
+			Source Code
+		</TextAnimationDecoration>
+		<!-- <ThemeModeToggle /> -->
+	</div>
 </header>

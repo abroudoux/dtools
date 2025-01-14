@@ -19,13 +19,13 @@
 			Tools that help you with your projects, so you can focus on the important things
 		</p>
 	</div>
-	<div class="grid w-full grid-cols-3 gap-4">
-		{#each tools.slice(0, 3) as tool}
+	<div class="grid w-full grid-cols-2 gap-4">
+		{#each tools.slice(0, 2) as tool}
 			<ToolCard {tool} onClick={() => selectTool(tool)} />
 		{/each}
 	</div>
 	<div class="grid w-full grid-cols-2 gap-4">
-		{#each tools.slice(3) as tool}
+		{#each tools.slice(2, 4) as tool}
 			<ToolCard {tool} onClick={() => selectTool(tool)} />
 		{/each}
 	</div>

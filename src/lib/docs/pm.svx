@@ -12,24 +12,6 @@ pm npm install express
         </code>
     </pre>
 
-    You can also return at the root of the project by simply use <Code>pm</Code> or the flag <Code>--root</Code> / <Code>-r</Code>.
-
-    <pre>
-        <code>
-# Will move you to the root of your project
-pm --root
-        </code>
-    </pre>
-
-    Your previous working directory is saved, so you can use <Code>pm -</Code> to go back to it.
-
-    <pre>
-        <code>
-# Will move you back to your previous working directory
-pm -
-        </code>
-    </pre>
-
     Use the <Code>--file</Code> / <Code>-f</Code> flag to configure your file reference.
 
     > By default, the value is <Code>package.json</Code>.
@@ -46,7 +28,7 @@ pm --file cargo.lock
     <pre>
         <code>
 # Will output your reference file
-pm --show
+pm --file
         </code>
     </pre>
 </div>
