@@ -1,5 +1,5 @@
 import type { SvelteComponent } from "svelte";
-import { Leaf, Clover, TreePalm, Flower, Drama } from "lucide-svelte";
+import { Leaf, Clover, TreePalm, Flower } from "lucide-svelte";
 
 import type { Tool } from "$lib/utils/types";
 
@@ -27,11 +27,5 @@ export const tools: Tool[] = [
 		description: "Browser Github repositories",
 		icon: Flower as typeof SvelteComponent,
 		repositoryUrl: "https://github.com/abroudoux/repo"
-	},
-	{
-		name: "al",
-		description: "Create local aliases, like package.json but everywhere",
-		icon: Drama as typeof SvelteComponent,
-		repositoryUrl: "https://github.com/abroudoux/al"
 	}
 ];
