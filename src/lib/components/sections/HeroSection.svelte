@@ -2,7 +2,7 @@
 	import { Trees } from "lucide-svelte";
 
 	import GridPattern from "$lib/components/GridPattern.svelte";
-	import ItalicText from "$lib/components/ItalicText.svelte";
+	import ItalicText from "$lib/components/typographie/ItalicText.svelte";
 	import { Button } from "$lib/components/ui/button/index";
 	import { cn } from "$lib/utils";
 </script>

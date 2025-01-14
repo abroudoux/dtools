@@ -1,5 +1,5 @@
 <script lang="ts">
-    import Code from "$lib/components/Code.svelte";
+    import Code from "$lib/components/typographie/Code.svelte";
 </script>
 
 <div class="text-xl leading-9">

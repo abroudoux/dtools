@@ -1,10 +1,10 @@
 <script lang="ts">
 	import { ArrowUpRight } from "lucide-svelte";
 
-	import ItalicText from "$lib/components/ItalicText.svelte";
+	import ItalicText from "$lib/components/typographie/ItalicText.svelte";
 	import type { Tool } from "$lib/utils/types";
 	import { getLastRealeaseVersion } from "$lib/utils/repositories";
-	import BorderBeam from "../BorderBeam.svelte";
+	import BorderBeam from "$lib/components/BorderBeam.svelte";
 
 	export let tool: Tool;
 	let version: string = "";

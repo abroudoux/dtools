@@ -3,6 +3,7 @@
 	import { Trees } from "lucide-svelte";
 
 	import TextAnimationDecoration from "$lib/components/TextAnimationDecoration.svelte";
+	import ThemeModeToggle from "$lib/components/ThemeModeToggle.svelte";
 </script>
 
 <header class="flex w-full flex-row items-center justify-between">
@@ -13,4 +14,5 @@
 	<TextAnimationDecoration href={"https://github.com/abroudoux/dtools"}>
 		Source Code
 	</TextAnimationDecoration>
+	<ThemeModeToggle />
 </header>
