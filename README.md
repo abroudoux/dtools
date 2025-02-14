@@ -2,8 +2,6 @@
 
 🌲 Tools built to help you develop better
 
-Version : 0.0.1
-
 ## 🚀 Installation
 
 ### Via Docker
@@ -12,16 +10,8 @@ WIP 🚧
 
 ### Manual
 
-Install dependencies
-
 ```bash
-pnpm install
-```
-
-Run server
-
-```bash
-pnpm run dev
+npm install && npm run dev
 ```
 
 ## 🧑‍🤝‍🧑 Contributing
@@ -38,7 +28,7 @@ Create a branch with a [conventionnal name](https://tilburgsciencehub.com/buildi
 
 ## 📌 Roadmap
 
-- [ ] Docker
+- [ ] Docker installation
 - [ ] Github API support
 - [ ] Installation guides
 - [ ] Svelte 5 migration
@@ -47,4 +37,4 @@ Create a branch with a [conventionnal name](https://tilburgsciencehub.com/buildi
 
 ## 📑 License
 
-This project is under MIT license. For more information, please see the file [LICENSE](./LICENSE).
+This project is under [MIT License](LICENSE).
