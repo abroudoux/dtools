@@ -24,8 +24,8 @@
 			<ToolCard {tool} onClick={() => selectTool(tool)} />
 		{/each}
 	</div>
-	<div class="grid w-full grid-cols-2 gap-4">
-		{#each tools.slice(2, 4) as tool}
+	<div class="grid w-full grid-cols-3 gap-4">
+		{#each tools.slice(2, 5) as tool}
 			<ToolCard {tool} onClick={() => selectTool(tool)} />
 		{/each}
 	</div>
