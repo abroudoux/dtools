@@ -1,0 +1,11 @@
+Dockerfile
+.dockerignore
+.git
+.github
+build
+e2e
+.gitignore
+.nojekyll
+.npmrc
+LICENSE
+README.md
