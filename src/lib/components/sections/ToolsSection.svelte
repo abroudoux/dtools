@@ -1,6 +1,6 @@
 <script lang="ts">
 	import ToolCard from "$lib/components/ToolCard.svelte";
-	import ItalicText from "$lib/components/typographie/ItalicText.svelte";
+	import ItalicText from "$lib/components/typography/ItalicText.svelte";
 	import { tools } from "$lib/utils/data";
 	import type { Tool } from "$lib/utils/types";
 	import { selectedTool } from "$lib/stores/toolStore";

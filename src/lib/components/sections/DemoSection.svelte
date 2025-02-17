@@ -1,9 +1,8 @@
 <script lang="ts">
 	import { ArrowUpRight } from "lucide-svelte";
 
-	import ItalicText from "$lib/components/typographie/ItalicText.svelte";
+	import ItalicText from "$lib/components/typography/ItalicText.svelte";
 	import type { Tool } from "$lib/utils/types";
-	import { getLastRealeaseVersion } from "$lib/utils/repositories";
 	import BorderBeam from "$lib/components/BorderBeam.svelte";
 
 	export let tool: Tool;
@@ -22,12 +21,7 @@
 			BranchComponent = null;
 		}
 
-		try {
-			const response = await getLastRealeaseVersion(tool.name);
-			response instanceof Error ? console.error(response.message) : (version = response);
-		} catch (error) {
-			console.error(`Error during the fetching of the last release version of ${toolName}:`, error);
-		}
+		console.log(toolName);
 	}
 </script>
 
@@ -47,11 +41,11 @@
 			{tool.description}
 		</p>
 	</div>
-	{#if BranchComponent}
+	<!-- {#if BranchComponent}
 		<svelte:component this={BranchComponent} />
 	{:else}
 		<p class="text-muted-foreground">Loading...</p>
-	{/if}
+	{/if} -->
 	<a
 		href={tool.repositoryUrl}
 		class="flex-inline justify-baseline group flex items-center gap-1 text-xl text-muted-foreground transition-all hover:gap-2 hover:text-foreground"

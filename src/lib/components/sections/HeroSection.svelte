@@ -1,18 +1,12 @@
 <script lang="ts">
-	import { Trees } from "lucide-svelte";
-
 	import GridPattern from "$lib/components/GridPattern.svelte";
-	import ItalicText from "$lib/components/typographie/ItalicText.svelte";
+	import ItalicText from "$lib/components/typography/ItalicText.svelte";
 	import { Button } from "$lib/components/ui/button/index";
 	import { cn } from "$lib/utils";
 </script>
 
-<section class="my-[15%] flex h-2/3 w-full flex-row items-center justify-between">
+<section class="my-[20%] flex h-2/3 w-full flex-row items-center justify-between">
 	<div class="flex flex-col items-start justify-center gap-4">
-		<p class="flex flex-row items-center justify-start gap-2">
-			<Trees size="42" class="text-orange-500" />
-			<span class="text-4xl">dtools</span>
-		</p>
 		<h1 class="max-w-4xl text-8xl">
 			Tools built to <ItalicText color="text-orange-500">help you</ItalicText> develop better.
 		</h1>
