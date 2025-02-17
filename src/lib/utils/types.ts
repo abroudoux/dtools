@@ -5,4 +5,5 @@ export type Tool = {
 	description: string;
 	icon: typeof SvelteComponent;
 	repositoryUrl: string;
+	lastVersion?: string;
 };

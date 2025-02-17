@@ -1,9 +1,12 @@
 <script lang="ts">
 	import { ModeWatcher } from "mode-watcher";
 
+	import { getToolsVersions } from "$lib/utils";
 	import "../app.css";
 
 	let { children } = $props();
+
+	getToolsVersions();
 </script>
 
 <svelte:head>
